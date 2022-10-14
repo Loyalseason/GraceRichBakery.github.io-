@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraceRich - Order</title>  
+    <!-- <link rel="stylesheet" href="Css/Login.css"> -->
+    <link rel="stylesheet" href="Css/Indexpage.css">
+    <link rel="stylesheet" href="CSS/Delivery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://use.fontawesome.com/2c4df237ad.js"></script>
+  <link rel="shortcut icon" href="logos/gracerich logo.png">
+</head>
+<body>
+ 
+  <nav>
+      
+    <div class="topnav" id="myTopnav">
+    <img class = "logoimg"src="logos/gracerich logo.png" alt=""> 
+    <a  class = "submenu" href="index.html" class="active"><i class="fa fa-house" aria-hidden="true"></i>Home</a>
+    <a class = "submenu"  href="order.html"><i class="fa-solid fa-cart-shopping"></i>Order Now </a>  
+    <a class = "submenu"  href="cont.html"><i class="fa fa-phone-square" aria-hidden="true"></i>Contact</a>
+    <a class ="menu" href="Work with us.html" > Work With Us </a>
+    
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+   <i class="fa fa-bars"></i>
+ </a>
+</div>
+</nav>
+ 
+
+ <div class="Body" >
+  
+         <div class="images">
+             <img src="logos/delicious-sweet-cake-with-strawberries-baiser-plate.jpg" id="Orderimg">
+            <div> Cake</div>
+            <div class="fa fa-star checked"></div>
+            <div class="fa fa-star checked"></div>
+            <div class="fa fa-star checked"></div>
+            <div class="fa fa-star checked"></div>
+            <div class="fa fa-star checked"></div>
+            <br>
+            <button id="odnow"  class="Ordernow">Order Now</button>
+        </div>
+        <div class="images">
+          <img src="logos/french-baguette-with-turkish-bagels-slices-bread-basket.jpg" id="Orderimg">
+         <div>Bread</div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <br>
+          <button id="odnow2"  class="Ordernow">Order Now</button>
+     </div>
+     <div class="images">
+      <img src="logos/glazed-chocolate-pink-donuts-marble-surface.jpg" id="Orderimg">
+     <div>Donut</div>
+     <div class="fa fa-star checked"></div>
+     <div class="fa fa-star checked"></div>
+     <div class="fa fa-star checked"></div>
+     <div class="fa fa-star checked"></div>
+     <div class="fa fa-star checked"></div>
+     <br>
+     <button id="odnow3"  class="Ordernow">Order Now</button>
+     
+     </div>
+      <div class="images">
+      <img src="logos/fitnish-media-2GmuRlwt_Q4-unsplash.jpg" id="Orderimg">
+      <div>Pie</div>
+      <div class="fa fa-star checked"></div>
+      <div class="fa fa-star checked"></div>
+      <div class="fa fa-star checked"></div>
+      <div class="fa fa-star checked"></div>
+      <div class="fa fa-star checked"></div>
+      <br>
+      <button id="odnow4"  class="Ordernow">Order Now</button>
+      </div>
+     
+      <div class="images">
+        <img src="logos/sj-YDvfndOs4IQ-unsplash.jpg "id="Orderimg">
+        <div>Cookies</div>
+        <div class="fa fa-star checked"></div>
+        <div class="fa fa-star checked"></div>
+        <div class="fa fa-star checked"></div>
+        <div class="fa fa-star checked"></div>
+        <div class="fa fa-star checked"></div>
+        <br>
+        <button id="donow5"  class="Ordernow">Order Now</button>
+        </div>
+
+        <div class="images">
+          <img src="logos/american-heritage-chocolate-ghtwiDUu5ro-unsplash.jpg" id="Orderimg">
+          <div>Cup Cakes</div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <div class="fa fa-star checked"></div>
+          <br>
+          <button id="odnow6" class="Ordernow">Order Now</button>
+          </div>
+            
+        
+ </div>
+   
+ <div class="popup" >
+  
+  <div class="popup-content" >
+  <button id="close" onclick="window.location.reload"><i class="fa-regular fa-circle-xmark"></i></button>
+  <i class="fa-solid fa-cart-shopping"></i>Cart
+  <form action="https://formspree.io/f/xqkjlddl" method="POST">
+  <div class="popdet">
+    <div>Price : Ghc 25</div>
+    <div> <br> Quantity </div>
+    <input type="number" name="Quantity" id="qty">
+    <div> <br> Location </div>
+    <input type="text" name="location" id="loc">
+    <div> <br> Phone </div>
+    <input type="tel" name="Phonenum" id="phone">
+   <br> <br> <button id="btn" class="login">Submit</button>
+  </form>
+  </div>
+   
+  </div>
+</div>
+
+
+
+ <div class="bottom" >
+  <div class="sublist">Copyright &copy; 2022</div>
+  <div class="sublist">
+    About Us
+  
+    <p>GraceRich Bakery is known as bakery unique for our square cupcakes and cakes. 
+      We take pride in using natural ingredients in our cupcakes, cakes and desserts. Our treats are 
+      as deliciously wholesome as they are beautifully decorated. Choose from our signature cupcakes, 
+      weekly and holiday specials or custom created desserts.</p>
+  </div>
+
+  <div class="sublist">Service</div>
+</div>
+  <script src="script/Gr.js"></script>
+  <script src="https://kit.fontawesome.com/64363bce82.js" crossorigin="anonymous"></script>
+  <script> 
+  
+  document.getElementById("odnow").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "flex";
+  })
+
+  // document.getElementById("odnow2").addEventListener("click", function(){
+  //   document.querySelector(".popup").style.display = "flex";
+  // })
+
+  // document.getElementById("odnow3").addEventListener("click", function(){
+  //   document.querySelector(".popup").style.display = "flex";
+  // })
+
+  // document.getElementById("odnow4").addEventListener("click", function(){
+  //   document.querySelector(".popup").style.display = "flex";
+  // })
+
+  // document.getElementById("odnow5").addEventListener("click", function(){
+  //   document.querySelector(".popup").style.display = "flex";
+  // })
+  // document.getElementById("odnow6").addEventListener("click", function(){
+  //   document.querySelector(".popup").style.display = "flex";
+  // })
+   
+   
+  </script>
+</html>

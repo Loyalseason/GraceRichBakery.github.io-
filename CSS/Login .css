@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+.Navigationbar{
+    display: flex;
+    background-color: #d28248;
+    justify-content: left;
+    position: relative;
+
+    
+    
+}
+
+.logoimg{
+    height: 100px;
+    width: 200px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.submenu{
+    margin: 5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;      
+
+}
+.submenu:hover{
+    border-bottom:5px solid black;
+}
+ 
+.Navigationbar .submenu .shortlimenu{
+    display: none;
+    list-style: none;
+}
+
+.menu{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;  
+    border: 2px solid gainsboro;
+    background-color: aliceblue;
+    border-radius: 80px;
+    margin: 5px;
+
+}
+.menu:hover {
+    background-color: #d28248;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
+
+
+}
+h1{
+    letter-spacing: 5px;
+}
+.formlayout{
+    letter-spacing: 5px;
+    display: inline-block;
+    position: relative;
+    left: 10;
+    background-color: #e0dbd8;
+    justify-content: center;
+    padding: 15px;
+    width: 400px;
+   
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+#loginbutton{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid  #1a9b5e;
+    border-radius: 50px;
+    background-color: #1a9b5e;
+    margin-left: 70px;
+    letter-spacing: 5px;
+    
+}
+
+#loginbutton:hover{
+    border-bottom: 5px solid black;
+}
+
+
+.allinput{
+    width: 300px;
+    height: 5px;
+    padding: 15px;
+    border: 2px solid  white;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+}
+
+
+.Rightsideimg{
+    width: 900px;
+    height: 600px;
+    background-color: ;
+    
+
+}
+
+#Leftside{
+    width: 450px;
+    padding-top: 60px;
+    padding-left: 10px;
+    
+}
+
+#Bodyinfo{
+    display: flex;
+    background-color: #e0dbd8;
+    height: 600px;
+
+}
+.fgtpassword{
+padding-top: 80px;
+padding-left: 50px;
+line-height: 25px;
+letter-spacing: 4px;
+
+}
+.fgtpassword a {
+    color: rgb(20, 126, 212);
+}
+
+#mysubmitin{
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    width: 100px;
+}
+.bottom
+{
+    background-color: rgb(12, 12, 19);
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sublist{
+    padding: 0px;
+    display: block;
+    font-size: 15px;
+    box-sizing: content-box;
+    width: 700px;
+    margin: 10px;
+    text-align: justify;
+}
+

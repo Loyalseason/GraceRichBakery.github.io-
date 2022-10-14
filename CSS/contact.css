@@ -1,0 +1,174 @@
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+h1{
+  letter-spacing: 5px;
+}
+.formlayout{
+  letter-spacing: 5px;
+  display: inline-block;
+  position: relative;
+  left: 10;
+  background-color: #e0dbd8;
+  justify-content: center;
+  padding: 15px;
+  width: 400px;
+ 
+}
+
+.loginbutton{
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid  #1a9b5e;
+  border-radius: 50px;
+  background-color: #1a9b5e;
+  margin-left: 70px;
+  letter-spacing: 5px;
+  font-family: 'Font Awesome 6 ' ;
+}
+
+.loginbutton:hover{
+  border-bottom: 5px solid black;
+  cursor: pointer;
+}
+
+
+input{
+  width: 300px;
+  height: 5px;
+  padding: 15px;
+  border: 2px solid  white;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.Rightsideimg{
+  width: 900px;
+  height: 600px;
+  
+
+}
+
+textarea{
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 100px;
+}
+#mysubmitin{
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border: 0px;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif; 
+  width: 100px;
+}
+
+#Leftside{
+  width: 450px;
+  padding-top: 60px;
+  padding-left: 10px;
+  
+}
+
+#Bodyinfo{
+  display: flex;
+  background-color: #e0dbd8;
+  height: 600px;
+
+}
+.fgtpassword{
+padding-top: 80px;
+padding-left: 50px;
+line-height: 25px;
+letter-spacing: 4px;
+
+}
+.fgtpassword a {
+  color: rgb(20, 126, 212);
+}
+.footer{
+  padding-top: 0px;
+  border: 0px solid #e0dbd8;
+
+}
+@media screen and (max-width: 600px) {
+  .Rightsideimg{
+    display: none;
+  }
+
+  .formlayout{
+    letter-spacing: 5px;
+    line-height: 35px;
+    left: 10;
+    justify-content: center;
+    width: 100px;
+    background-color: #f7f8fa;
+  }
+  
+  .fgtpassword{
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    
+    }
+    .footer{
+      padding-top: 0px;
+      border: 0px solid #e0dbd8;
+    
+    }
+    input{
+      height: 5px;
+      padding: 15px;
+      border-radius: 15px;
+      position: relative;
+      top: 5px;
+      width: 200px;
+    }
+    .loginbutton{
+      position: absolute;
+      text-align: center;
+      font-size: 25px;
+      width: 200px;
+      padding: 0px;
+      border: 0px solid  #1a9b5e;
+      border-radius: 50px;
+      background-color: #1a9b5e;
+      margin-left: 20px;
+      letter-spacing: 5px;
+      font-family: 'Font Awesome 6 ' ;
+      
+    }
+    #Bodyinfo{
+      display: flex;
+
+      height: 550px;
+     background-image: url("https://images.unsplash.com/photo-1534620808146-d33bb39128b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    }
+    #Leftside{
+      width: 450px;
+      padding-top: 20px;
+      padding-left: 10px;
+      
+    }
+    textarea{
+      border-radius: 10px;
+      padding: 10px;
+      width: 200px;
+      height: 90px;
+    }
+
+}
